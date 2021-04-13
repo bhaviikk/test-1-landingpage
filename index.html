@@ -22,7 +22,7 @@
                 <div class="header__heading-center">
                     <div class="header__heading-center-box">people funding (Table Banking)</div>
                     <span class="header__heading-center-text">New group</span>
-                    <i class="fas fa-plus-circle"></i>
+                    <i class="fas fa-plus-circle fa-2x"></i>
                 </div>
                 <div class="header__heading-right">
                     <div class="header__heading-right-box">need help</div>
@@ -45,7 +45,17 @@
                 </div>
 
                 <div class="header__section-card">
-                    <img src="./Assests/Capture.PNG" alt="card">
+                    <svg width="50%" height="50%" viewbox="0 0 100 100">
+                        <circle cx="50" cy="50" r="40" fill="transparent"/>
+                        <circle cx="50" cy="50" r="40" fill="transparent" stroke-width="5" stroke="grey"/>
+                        <circle cx="50" cy="50" r="40" fill="transparent" stroke-width="5" stroke="orange" stroke-dasharray="251.2" stroke-dashoffset="50.3"/>
+                        <text x="40" y="50" fill="white" font-size="10">35%</text>
+                    </svg>
+                <div class="header__section-card-text">
+                    <h1>profile completion</h1>
+                    <h2>please complete profile</h2>
+                    <div class="header__section-card-text-btn">complete</div>
+                </div>
                 </div>
 
             </div>
@@ -101,14 +111,37 @@
 
         <div class="content">
             <nav class="content__navigation">
-
-                <a href="/">Dashboard</a>
-                <a href="/">contribution</a>
-                <a href="/">Due contribution</a>
-                <a href="/">My Loans</a>
-                <a href="/">My Savings</a>
-                <a href="/">Members</a>
-                <div class="content__navigation-btn">Loan Request</div>
+                <input type="radio" name="link" id="link-1" checked>
+               <label for="link-1">
+                <i class="fas fa-home"></i>
+                <h6>Dashboard</h6>
+               </label>
+               <input type="radio" name="link" id="link-2">
+               <label for="link-2">
+                <i class="fas fa-user-friends"></i>
+                <h6>Contribution</h6>
+               </label>
+               <input type="radio" name="link" id="link-3">
+               <label for="link-3">
+                <i class="fas fa-user-plus"></i>
+                <h6>Due Contribution</h6>
+               </label>
+              <input type="radio" name="link" id="link-4">
+               <label for="link-4">
+                <i class="fas fa-money-bill-wave"></i>
+                <h6>My Loans</h6>
+               </label>
+               <input type="radio" name="link" id="link-5">
+               <label for="link-5">
+                <i class="fas fa-piggy-bank"></i>
+                <h6>My Savings</h6>
+               </label>
+               <input type="radio" name="link" id="link-6">
+               <label for="link-6">
+                <i class="fas fa-user-astronaut"></i>
+                <h6>Members</h6>
+               </label>
+               <div class="content__navigation-btn">Loan Request</div>
 
             </nav>
             <div class="content_main">
@@ -129,7 +162,7 @@
                 <div class="content_main-card-2">
                     <div class="content_main-card-2-cont">
                         <div class="content_main-card-2-cont-icon">
-                            <i class="fas fa-hand-holding-usd fa-5x"></i>
+                            <i class="fas fa-piggy-bank fa-5x"></i>
                         </div>
                         <div class="content_main-card-2-cont-text">
                             <h2>Total savings</h2>
@@ -144,7 +177,7 @@
                 <div class="content_main-card-3">
                     <div class="content_main-card-3-cont">
                         <div class="content_main-card-3-cont-icon">
-                            <i class="fas fa-hand-holding-usd fa-5x"></i>
+                            <i class="fas fa-coins fa-5x"></i>
                         </div>
                         <div class="content_main-card-3-cont-text">
                             <h2>Loan amount</h2>
@@ -216,15 +249,6 @@
                             <h6>05:40 PM</h6>
                         </div>
                     </div>
-
-                    <div class="content_main-card-5-activity">
-                        <i class="fa fa-circle" id="dot-6"></i>
-                        <div class="content_main-card-5-activity-details">
-                            <h4>Claimed $2000</h4>
-                            <h5>23 members got claimed in washington DC</h5>
-                            <h6>05:40 PM</h6>
-                        </div>
-                    </div>
                 </div>
 
               
@@ -235,7 +259,9 @@
                         <div class="content_main-card-6-outer-text">
                             <h2>jane doe</h2>
                             <h3>jan,2020</h3>
+                           
                         </div>
+                        <h2 class="dollar-text">$34</h2>
                     </div>
 
                     <div class="content_main-card-6-outer">
@@ -244,6 +270,7 @@
                             <h2>jane doe</h2>
                             <h3>jan,2020</h3>
                         </div>
+                        <h2 class="dollar-text">$34</h2>
                     </div>
 
                     <div class="content_main-card-6-outer">
@@ -252,6 +279,7 @@
                             <h2>jane doe</h2>
                             <h3>jan,2020</h3>
                         </div>
+                        <h2 class="dollar-text">$34</h2>
                     </div>
 
                     <div class="content_main-card-6-outer">
@@ -260,6 +288,7 @@
                             <h2>jane doe</h2>
                             <h3>jan,2020</h3>
                         </div>
+                        <h2 class="dollar-text">$34</h2>
                     </div>
 
                     
